@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.post_form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.post_form > input, button {
+    padding: 10px;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+    border: 2px solid blue;
+    background-color: red;
+}
